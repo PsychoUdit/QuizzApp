@@ -1,0 +1,22 @@
+[
+    {"id":1,"question":"What is the capital of France?","options":["Berlin","Madrid","Paris","Rome"],"answer":"Paris"},
+    {"id":2,"question":"Which planet is known as the Red Planet?","options":["Earth","Mars","Jupiter","Saturn"],"answer":"Mars"},
+    {"id":3,"question":"Who wrote 'To Kill a Mockingbird'?","options":["Harper Lee","Mark Twain","Ernest Hemingway","F. Scott Fitzgerald"],"answer":"Harper Lee"},
+    {"id":4,"question":"What is the largest ocean on Earth?","options":["Atlantic Ocean","Indian Ocean","Arctic Ocean","Pacific Ocean"],"answer":"Pacific Ocean"},
+    {"id":5,"question":"What is the chemical symbol for gold?","options":["Au","Ag","Fe","Pb"],"answer":"Au"},
+    {"id":6,"question":"Who painted the Mona Lisa?","options":["Vincent van Gogh","Pablo Picasso","Leonardo da Vinci","Claude Monet"],"answer":"Leonardo da Vinci"},
+    {"id":7,"question":"What is the smallest prime number?","options":["0","1","2","3"],"answer":"2"},
+    {"id":8,"question":"Which language is used to style web pages?","options":["HTML","JQuery","CSS","XML"],"answer":"CSS"},
+    {"id":9,"question":"What is the boiling point of water?","options":["90°C","100°C","110°C","120°C"],"answer":"100°C"},
+    {"id":10,"question":"Who discovered gravity?","options":["Albert Einstein","Isaac Newton","Galileo Galilei","Nikola Tesla"],"answer":"Isaac Newton"},
+    {"id":11,"question":"Which is the longest river in the world?","options":["Amazon","Nile","Yangtze","Mississippi"],"answer":"Nile"},
+    {"id":12,"question":"What is the hardest natural substance?","options":["Gold","Iron","Diamond","Silver"],"answer":"Diamond"},
+    {"id":13,"question":"Which country is known as the Land of the Rising Sun?","options":["China","Japan","Thailand","India"],"answer":"Japan"},
+    {"id":14,"question":"What is the main gas found in the air we breathe?","options":["Oxygen","Hydrogen","Nitrogen","Carbon Dioxide"],"answer":"Nitrogen"},
+    {"id":15,"question":"Who is the author of Harry Potter?","options":["J.K. Rowling","J.R.R. Tolkien","Stephen King","Agatha Christie"],"answer":"J.K. Rowling"},
+    {"id":16,"question":"Which planet is closest to the sun?","options":["Venus","Earth","Mercury","Mars"],"answer":"Mercury"},
+    {"id":17,"question":"What is the square root of 64?","options":["6","7","8","9"],"answer":"8"},
+    {"id":18,"question":"Which continent is the Sahara Desert located in?","options":["Asia","Africa","Australia","Europe"],"answer":"Africa"},
+    {"id":19,"question":"What is the chemical formula for water?","options":["CO2","H2O","O2","NaCl"],"answer":"H2O"},
+    {"id":20,"question":"Who invented the telephone?","options":["Alexander Graham Bell","Thomas Edison","Nikola Tesla","Guglielmo Marconi"],"answer":"Alexander Graham Bell"}
+]

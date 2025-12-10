@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root{
+    --bg-900: #06202a;
+    --bg-700: #065f46;
+    --accent: #0ea5a4;
+    --primary: #0ea5a4;
+    --cta-from: #34d399;
+    --cta-to: #38bdf8;
+    --card-from: #073240;
+    --card-to: #0ea5a4;
+    --muted: #94a3b8;
+    --text: #e6f6f5;
+    --success: #10b981;
+    --danger: #ef4444;
+}
+
+body{
+    background: linear-gradient(135deg,var(--bg-900),var(--bg-700));
+    color: var(--text);
+}
+
+/* Theme utility classes */
+.theme-hero{background: linear-gradient(135deg,var(--bg-900),var(--bg-700));}
+.theme-card{background: linear-gradient(180deg,var(--card-from),var(--card-to));}
+.theme-cta{background: linear-gradient(90deg,var(--cta-from),var(--cta-to)); color: var(--text);} 
+.theme-accent{color: var(--accent);} 
+.theme-border{border-color: rgba(14,165,164,0.15);} 
+.theme-progress{background: linear-gradient(90deg,var(--cta-from),var(--cta-to));}
+
+/* Responsive helpers */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem; /* 16px */
+    padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+    .container { padding-left: 1.25rem; padding-right: 1.25rem; }
+}
+@media (min-width: 768px) {
+    .container { padding-left: 1.5rem; padding-right: 1.5rem; }
+}
+@media (min-width: 1024px) {
+    .container { padding-left: 2rem; padding-right: 2rem; }
+}
+
+/* Make images and media scale nicely */
+img, video, iframe { max-width: 100%; height: auto; }
+
+/* Slightly smaller base font on very small screens for better fit */
+html { font-size: 16px; }
+@media (max-width: 360px) { html { font-size: 15px; } }
+
+/* Utility to avoid full-screen fixed buttons overlapping important content */
+.fixed-safe-top-left { top: 0.75rem; left: 0.75rem; }
+@media (min-width: 768px) { .fixed-safe-top-left { top: 1.5rem; left: 2rem; } }
+
+/* Simple text color helpers using CSS variables to avoid Tailwind arbitrary classes */
+.text-success { color: var(--success); }
+.text-danger { color: var(--danger); }
+.text-accent { color: var(--accent); }
